@@ -1,33 +1,48 @@
+/* Template for creating themes
+Copy this file and replace the following words with the colors you want
+Then add the created file to _includes/head.html file
+
+#0f5076
+#125c87
+#053754
+
+#1473aa
+*/
+
+.icon-background {
+    color: #0f5076;
+}
+
 .summary {
     color: #808080;
-    border-left: 5px solid #ED1951;
+    border-left: 5px solid #1473aa;
     font-size:16px;
 }
 
 
-h3 {color: #ED1951; }
+h3 {color: #1473aa; }
 h4 {color: #808080; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background-color: #248ec2;
+    background-color: #125c87;
     color: white;
 }
 
 .nav > li.active > a {
-    background-color: #347DBE;
+    background-color: #0f5076;
 }
 
 .nav > li > a:hover {
-    background-color: #248ec2;
+    background-color: #125c87;
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: #347DBE;
+    background-color: #0f5076;
 }
 
 .nav li.thirdlevel > a {
     background-color: #FAFAFA !important;
-    color: #248EC2;
+    color: #125c87;
     font-weight: bold;
 }
 
@@ -38,8 +53,8 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    background-color: #347DBE;
-    border-color: #015CAE;
+    background-color: #0f5076;
+    border-color: #053754;
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: white;
@@ -54,26 +69,26 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #015CAE;
+    color: #053754;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #015CAE;
+    background-color: #053754;
     color: #ffffff;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #248ec2 !important;
+    border-color: #125c87 !important;
 }
 
 .btn-primary {
     color: #ffffff;
-    background-color: #347DBE;
-    border-color: #347DBE;
+    background-color: #0f5076;
+    border-color: #0f5076;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #347DBE;
+    background-color: #0f5076;
 }
 
 .btn-primary:hover,
@@ -81,15 +96,15 @@ a.navbar-brand:hover {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    background-color: #248ec2;
-    border-color: #347DBE;
+    background-color: #125c87;
+    border-color: #0f5076;
 }
 
 .printTitle {
-    color: #015CAE !important;
+    color: #053754 !important;
 }
 
-body.print h1 {color: #015CAE !important; font-size:28px !important;}
+body.print h1 {color: #053754 !important; font-size:28px !important;}
 body.print h2 {color: #595959 !important; font-size:20px !important;}
 body.print h3 {color: #E50E51 !important; font-size:14px !important;}
 body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic !important;}
@@ -99,23 +114,23 @@ body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic !im
 }
 
 div.sidebarTitle {
-    color: #015CAE;
+    color: #053754;
 }
 
 li.sidebarTitle {
   margin-top:20px;
     font-weight:normal;
     font-size:130%;
-    color: #ED1951;
+    color: #1473aa;
     margin-bottom:10px;
     margin-left: 5px;
 
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #015CAE;
+    background-color: #053754;
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #015CAE;
+    border-color: #053754;
 }
