@@ -30,31 +30,15 @@ entries:
       url: /citations
       output: web, pdf
 
-  - title: Benchmark
-    output: web, pdf
-    folderitems:
-
     - title: Benchmark
       url: /benchmark
       output: web, pdf
 
-    - title: Goddard rocket benchmark
-      url: /goddard_benchmark
+    - title: Navigating yop
+      url: /navigation
       output: web, pdf
 
-  - title: Navigating Yop
-    output: web, pdf
-    folderitems:
-
-    - title: Navigating yoptimization.com
-      url: /keywords
-      output: web, pdf
-
-    - title: Navigating the GitHub 
-      url: /github
-      output: web, pdf
-
-  - title: Install
+  - title: Getting started
     output: web, pdf
     folderitems:
 
@@ -62,72 +46,29 @@ entries:
       url: /install
       output: web, pdf
 
-  - title: Getting started
-    output: web, pdf
-    folderitems:
-
     - title: Getting started
       url: /gettingStarted
       output: web, pdf
       type: homepage
 
-  - title: YopSystem
+  - title: Tutorial
     output: web, pdf
     folderitems:
 
-    - title: Overview
-      url: /yopSystemOverview
+    - title: Tutorial
+      url: /tutorial
       output: web, pdf
 
-    - title: Declaration
-      url: /yopSystem
-      output: web, pdf
+      subfolders:
+      - title: Pages
+        output: web, pdf
+        subfolderitems:
 
-    - title: Connections
-      url: /connections
-      output: web, pdf
+        - title: Bryson-Denham
+          url: /brysonDenham
+          output: web, pdf
 
-    - title: Modeling limitations
-      url: /yopSystemLimitations
-      output: web, pdf
-
-    - title: Independent variable
-      url: /independent
-      output: web, pdf
-
-  - title: Optimal control
-    output: web, pdf
-    folderitems:
-
-    - title: Overview
-      url: /yopOcp
-      output: web, pdf
-
-    - title: Formulating OCPs
-      url: /formulatingOptimalControlProblems
-      output: web, pdf
-
-    - title: Initial guess
-      url: /initialGuess
-      output: web, pdf
-
-    - title: Solving OCPs
-      url: /solvingOcps
-      output: web, pdf
-
-  - title: Simulation
-    output: web, pdf
-    folderitems:
-
-    - title: Overview
-      url: /simulationOverview
-      output: web, pdf
-
-    - title: Simulation
-      url: /yopSimulator
-      output: web, pdf
-
-  - title: Optimal control examples
+  - title: Example Collection
     output: web, pdf
     folderitems:
 
@@ -204,15 +145,3 @@ entries:
         - title: Code block
           url: /transientOptimizationCode
           output: web, pdf
-
-  - title: Simulation examples
-    output: web, pdf
-    folderitems:
-
-    - title: Double integrator
-      url: /doubleIntegratorSim
-      output: web, pdf
-
-    - title: Simulation of powertrain
-      url: /transientSimulation
-      output: web, pdf
