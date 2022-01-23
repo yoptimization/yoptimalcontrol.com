@@ -72,76 +72,118 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Overview
-      url: /examples
+    - title: Bryson-Denham
+      url: /bryson
+      output: web, pdf
+      
+    - title: Dynamic Soaring
+      url: /dynamic-soaring
+      output: web, pdf
+      
+    - title: Goddard Rocket
+      url: /goddard
+      output: web, pdf
+      
+    - title: Greenhouse Control
+      url: /greenhouse_control
+      output: web, pdf
+      
+    - title: Hyper Sensitive
+      url: /hyper_sensitive
+      output: web, pdf
+      
+    - title: Isoperimetric Constraint
+      url: /isoperimetric_constraint
       output: web, pdf
 
-      subfolders:
-      - title: Bryson-Denham
-        output: web, pdf
-        subfolderitems:
-
-        - title: Bryson-Denham
-          url: /brysonDenham
-          output: web, pdf
-
-        - title: Bryson-Denham Pareto front
-          url: /brysonPareto
-          output: web, pdf
-
-        - title: Animation file
-          url: /brysonAnimation
-          output: web, pdf
-
-      - title: Goddard rocket
-        output: web, pdf
-        subfolderitems:
-
-        - title: Maximum ascent
-          url: /goddardRocket
-          output: web, pdf
-
-        - title: Maximum ascent final time free
-          url: /goddardRocketFreeTf
-          output: web, pdf
-
-        - title: Maximum ascent final time fixed
-          url: /goddardRocketFixedTf
-          output: web, pdf
-
-        - title: Landing
-          url: /goddardLanding
-          output: web, pdf
-
-        - title: Animation file
-          url: /goddardAnimate
-          output: web, pdf
-
-    - title: Bang-Bang free end time
-      url: /bangFreeTf
+    - title: Low-thrust Orbit
+      url: /low-thrust_orbit
       output: web, pdf
 
-    - title: Greenhouse climate control
-      url: /greenhouse
+    - title: Reusable Launch Vehicle
+      url: /reusable_launch_vehicle_entry
       output: web, pdf
 
-    - title: Isoperimetric Constraint Problem
-      url: /isoConstraint
+    - title: Tumor Antiangiogenesis
+      url: /tumor_antiangiogenesis
       output: web, pdf
 
-    - title: Nondifferentiable system
-      url: /nonDiff
+    - title: Two Strain Tuberculosis
+      url: /two_strain_tuberculosis
       output: web, pdf
 
-      subfolders:
-      - title: Powertrain transient optimization
-        output: web, pdf
-        subfolderitems:
 
-        - title: Powertrain transient optimization
-          url: /transientOptimization
-          output: web, pdf
 
-        - title: Code block
-          url: /transientOptimizationCode
-          output: web, pdf
+    # - title: Overview
+    #   url: /examples
+    #   output: web, pdf
+
+    #   subfolders:
+    #   - title: Bryson-Denham
+    #     output: web, pdf
+    #     subfolderitems:
+
+    #     - title: Bryson-Denham
+    #       url: /brysonDenham
+    #       output: web, pdf
+
+    #     - title: Bryson-Denham Pareto front
+    #       url: /brysonPareto
+    #       output: web, pdf
+
+    #     - title: Animation file
+    #       url: /brysonAnimation
+    #       output: web, pdf
+
+    #   - title: Goddard rocket
+    #     output: web, pdf
+    #     subfolderitems:
+
+    #     - title: Maximum ascent
+    #       url: /goddardRocket
+    #       output: web, pdf
+
+    #     - title: Maximum ascent final time free
+    #       url: /goddardRocketFreeTf
+    #       output: web, pdf
+
+    #     - title: Maximum ascent final time fixed
+    #       url: /goddardRocketFixedTf
+    #       output: web, pdf
+
+    #     - title: Landing
+    #       url: /goddardLanding
+    #       output: web, pdf
+
+    #     - title: Animation file
+    #       url: /goddardAnimate
+    #       output: web, pdf
+
+    # - title: Bang-Bang free end time
+    #   url: /bangFreeTf
+    #   output: web, pdf
+
+    # - title: Greenhouse climate control
+    #   url: /greenhouse
+    #   output: web, pdf
+
+    # - title: Isoperimetric Constraint Problem
+    #   url: /isoConstraint
+    #   output: web, pdf
+
+    # - title: Nondifferentiable system
+    #   url: /nonDiff
+    #   output: web, pdf
+
+    #   subfolders:
+    #   - title: Powertrain transient optimization
+    #     output: web, pdf
+    #     subfolderitems:
+
+    #     - title: Powertrain transient optimization
+    #       url: /transientOptimization
+    #       output: web, pdf
+
+    #     - title: Code block
+    #       url: /transientOptimizationCode
+    #       output: web, pdf
