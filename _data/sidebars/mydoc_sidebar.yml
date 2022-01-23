@@ -34,9 +34,9 @@ entries:
       url: /benchmark
       output: web, pdf
 
-    - title: Navigating yop
-      url: /navigation
-      output: web, pdf
+    # - title: Navigating yop
+    #   url: /navigation
+    #   output: web, pdf
 
   - title: Getting started
     output: web, pdf
@@ -46,10 +46,10 @@ entries:
       url: /install
       output: web, pdf
 
-    - title: Getting started
-      url: /gettingStarted
-      output: web, pdf
-      type: homepage
+    # - title: Getting started
+    #   url: /gettingStarted
+    #   output: web, pdf
+    #   type: homepage
 
   - title: Tutorial
     output: web, pdf
